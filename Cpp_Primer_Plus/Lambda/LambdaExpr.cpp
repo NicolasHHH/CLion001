@@ -33,6 +33,7 @@ public:
     bool operator()(int x){ return x%dev == 0;}
 };
 
+
 int main() {
     Linear f1;
     Linear f2(5,10);
@@ -64,5 +65,11 @@ int main() {
     auto Lambda_mod7 = [](int x){return x%7==0;};
     int count7 =  count_if(numbers.begin(),numbers.end(), Lambda_mod7);
     cout << "count7 : "<< count7<<endl;
+
+    count7 = 0;
+    std::for_each(numbers.begin(),numbers.end(),[&count7](int x){count7 += x%7==0;});
+    cout << "count7 : "<< count7<<endl;
+
+
 }
 
