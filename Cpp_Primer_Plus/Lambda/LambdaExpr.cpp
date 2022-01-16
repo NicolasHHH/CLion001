@@ -60,5 +60,9 @@ int main() {
     // the auto-determination of return value is valid iif there's only one return phrase.
     cout << [](double x)->double{int y = x;return x-y;}(3.8)<<endl; // decimal part
 
+    // we can assign a name to Lambda Expr for repeated use
+    auto Lambda_mod7 = [](int x){return x%7==0;};
+    int count7 =  count_if(numbers.begin(),numbers.end(), Lambda_mod7);
+    cout << "count7 : "<< count7<<endl;
 }
 
