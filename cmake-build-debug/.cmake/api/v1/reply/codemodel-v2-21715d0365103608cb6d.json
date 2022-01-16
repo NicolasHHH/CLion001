@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lion001",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ConstPointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConstPointer-Debug-670c017a62e9b3942ada.json",
+					"name" : "ConstPointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lambda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lambda-Debug-501411e3082235a00950.json",
+					"name" : "Lambda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Reference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reference-Debug-2a68087dcd13451807a7.json",
+					"name" : "Reference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StdDeque::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StdDeque-Debug-907f0a53636622a0f58d.json",
+					"name" : "StdDeque",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-28a2224586be3a019de3.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/tianyang/CLionProjects/Lion001/cmake-build-debug",
+		"source" : "/Users/tianyang/CLionProjects/Lion001"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

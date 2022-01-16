@@ -1,0 +1,4 @@
+"/Users/tianyang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/tianyang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja /Users/tianyang/CLionProjects/Lion001
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/tianyang/CLionProjects/Lion001/cmake-build-debug
