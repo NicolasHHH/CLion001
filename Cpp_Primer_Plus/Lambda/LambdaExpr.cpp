@@ -70,6 +70,10 @@ int main() {
     std::for_each(numbers.begin(),numbers.end(),[&count7](int x){count7 += x%7==0;});
     cout << "count7 : "<< count7<<endl;
 
+    count3 = 0;
+    count13 = 0;
+    std::for_each(numbers.begin(),numbers.end(),[&](int x){count3 += x%3==0;count13 += x%13==0;});
+    cout << "count3 : "<< count3 << " count13 : " << count13 <<endl;
 
 }
 
