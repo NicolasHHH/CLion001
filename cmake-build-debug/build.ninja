@@ -126,6 +126,37 @@ build Lambda: CXX_EXECUTABLE_LINKER__Lambda_Debug CMakeFiles/Lambda.dir/Cpp_Prim
   TARGET_PDB = Lambda.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RefAndFunction
+
+
+#############################################
+# Order-only phony target for RefAndFunction
+
+build cmake_object_order_depends_target_RefAndFunction: phony || CMakeFiles/RefAndFunction.dir
+
+build CMakeFiles/RefAndFunction.dir/Cpp_Primer_Plus/Function/RefAndFunction.cpp.o: CXX_COMPILER__RefAndFunction_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/Function/RefAndFunction.cpp || cmake_object_order_depends_target_RefAndFunction
+  DEP_FILE = CMakeFiles/RefAndFunction.dir/Cpp_Primer_Plus/Function/RefAndFunction.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/RefAndFunction.dir
+  OBJECT_FILE_DIR = CMakeFiles/RefAndFunction.dir/Cpp_Primer_Plus/Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RefAndFunction
+
+
+#############################################
+# Link the executable RefAndFunction
+
+build RefAndFunction: CXX_EXECUTABLE_LINKER__RefAndFunction_Debug CMakeFiles/RefAndFunction.dir/Cpp_Primer_Plus/Function/RefAndFunction.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/RefAndFunction.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RefAndFunction
+  TARGET_PDB = RefAndFunction.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target main
 
 
@@ -229,7 +260,7 @@ build ConstPointer: CXX_EXECUTABLE_LINKER__ConstPointer_Debug CMakeFiles/ConstPo
 #############################################
 # Folder: /Users/tianyang/CLionProjects/Lion001/cmake-build-debug
 
-build all: phony StdDeque Lambda main Reference ConstPointer
+build all: phony StdDeque Lambda RefAndFunction main Reference ConstPointer
 
 # =============================================================================
 # Built-in targets

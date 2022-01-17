@@ -12,7 +12,7 @@ int main(){
     //  int -> const int* ----------------
     int age = 39;
     int num = 100;
-    const int* ptr = &age;
+    const int* ptr = &age;  // 不能通过*ptr赋值，但是可以改变指向，也可以通过变量名赋值。
     cout << ptr <<endl;
     cout << *ptr <<endl;
 
@@ -49,7 +49,7 @@ int main(){
 
     // int* const ptr =========================================================================
     int sloth = 3;
-    int* const ptr_const = &sloth;
+    int* const ptr_const = &sloth; // 不能改变指向，但是通道已经建立：可以通过指针赋值
     cout << "ptr_const:  " << ptr_const <<endl;
     cout << "*ptr_const: " << *ptr_const <<endl;
 
