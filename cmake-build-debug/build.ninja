@@ -157,6 +157,37 @@ build RefAndFunction: CXX_EXECUTABLE_LINKER__RefAndFunction_Debug CMakeFiles/Ref
   TARGET_PDB = RefAndFunction.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RefAndConst
+
+
+#############################################
+# Order-only phony target for RefAndConst
+
+build cmake_object_order_depends_target_RefAndConst: phony || CMakeFiles/RefAndConst.dir
+
+build CMakeFiles/RefAndConst.dir/Cpp_Primer_Plus/Function/RefAndConst.cpp.o: CXX_COMPILER__RefAndConst_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/Function/RefAndConst.cpp || cmake_object_order_depends_target_RefAndConst
+  DEP_FILE = CMakeFiles/RefAndConst.dir/Cpp_Primer_Plus/Function/RefAndConst.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/RefAndConst.dir
+  OBJECT_FILE_DIR = CMakeFiles/RefAndConst.dir/Cpp_Primer_Plus/Function
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RefAndConst
+
+
+#############################################
+# Link the executable RefAndConst
+
+build RefAndConst: CXX_EXECUTABLE_LINKER__RefAndConst_Debug CMakeFiles/RefAndConst.dir/Cpp_Primer_Plus/Function/RefAndConst.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/RefAndConst.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RefAndConst
+  TARGET_PDB = RefAndConst.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target main
 
 
@@ -260,7 +291,7 @@ build ConstPointer: CXX_EXECUTABLE_LINKER__ConstPointer_Debug CMakeFiles/ConstPo
 #############################################
 # Folder: /Users/tianyang/CLionProjects/Lion001/cmake-build-debug
 
-build all: phony StdDeque Lambda RefAndFunction main Reference ConstPointer
+build all: phony StdDeque Lambda RefAndFunction RefAndConst main Reference ConstPointer
 
 # =============================================================================
 # Built-in targets
