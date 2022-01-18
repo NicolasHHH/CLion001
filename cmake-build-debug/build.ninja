@@ -52,6 +52,68 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Set
+
+
+#############################################
+# Order-only phony target for Set
+
+build cmake_object_order_depends_target_Set: phony || CMakeFiles/Set.dir
+
+build CMakeFiles/Set.dir/Cpp_Primer_Plus/DataStructure/Set.cpp.o: CXX_COMPILER__Set_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Set.cpp || cmake_object_order_depends_target_Set
+  DEP_FILE = CMakeFiles/Set.dir/Cpp_Primer_Plus/DataStructure/Set.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Set.dir
+  OBJECT_FILE_DIR = CMakeFiles/Set.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Set
+
+
+#############################################
+# Link the executable Set
+
+build Set: CXX_EXECUTABLE_LINKER__Set_Debug CMakeFiles/Set.dir/Cpp_Primer_Plus/DataStructure/Set.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Set.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Set
+  TARGET_PDB = Set.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/Cpp_Primer_Plus/DataStructure/Stack.cpp.o: CXX_COMPILER__Stack_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Stack.cpp || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/Cpp_Primer_Plus/DataStructure/Stack.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack
+
+build Stack: CXX_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Cpp_Primer_Plus/DataStructure/Stack.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stack
+  TARGET_PDB = Stack.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -62,6 +124,192 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Heap
+
+
+#############################################
+# Order-only phony target for Heap
+
+build cmake_object_order_depends_target_Heap: phony || CMakeFiles/Heap.dir
+
+build CMakeFiles/Heap.dir/Cpp_Primer_Plus/DataStructure/Heap.cpp.o: CXX_COMPILER__Heap_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Heap.cpp || cmake_object_order_depends_target_Heap
+  DEP_FILE = CMakeFiles/Heap.dir/Cpp_Primer_Plus/DataStructure/Heap.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Heap.dir
+  OBJECT_FILE_DIR = CMakeFiles/Heap.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Heap
+
+
+#############################################
+# Link the executable Heap
+
+build Heap: CXX_EXECUTABLE_LINKER__Heap_Debug CMakeFiles/Heap.dir/Cpp_Primer_Plus/DataStructure/Heap.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Heap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Heap
+  TARGET_PDB = Heap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Priority
+
+
+#############################################
+# Order-only phony target for Priority
+
+build cmake_object_order_depends_target_Priority: phony || CMakeFiles/Priority.dir
+
+build CMakeFiles/Priority.dir/Cpp_Primer_Plus/DataStructure/Priority.cpp.o: CXX_COMPILER__Priority_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Priority.cpp || cmake_object_order_depends_target_Priority
+  DEP_FILE = CMakeFiles/Priority.dir/Cpp_Primer_Plus/DataStructure/Priority.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Priority.dir
+  OBJECT_FILE_DIR = CMakeFiles/Priority.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Priority
+
+
+#############################################
+# Link the executable Priority
+
+build Priority: CXX_EXECUTABLE_LINKER__Priority_Debug CMakeFiles/Priority.dir/Cpp_Primer_Plus/DataStructure/Priority.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Priority.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Priority
+  TARGET_PDB = Priority.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Order-only phony target for Queue
+
+build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
+
+build CMakeFiles/Queue.dir/Cpp_Primer_Plus/DataStructure/Queue.cpp.o: CXX_COMPILER__Queue_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Queue.cpp || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles/Queue.dir/Cpp_Primer_Plus/DataStructure/Queue.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Link the executable Queue
+
+build Queue: CXX_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/Cpp_Primer_Plus/DataStructure/Queue.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue
+  TARGET_PDB = Queue.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target List
+
+
+#############################################
+# Order-only phony target for List
+
+build cmake_object_order_depends_target_List: phony || CMakeFiles/List.dir
+
+build CMakeFiles/List.dir/Cpp_Primer_Plus/DataStructure/List.cpp.o: CXX_COMPILER__List_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/List.cpp || cmake_object_order_depends_target_List
+  DEP_FILE = CMakeFiles/List.dir/Cpp_Primer_Plus/DataStructure/List.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/List.dir
+  OBJECT_FILE_DIR = CMakeFiles/List.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target List
+
+
+#############################################
+# Link the executable List
+
+build List: CXX_EXECUTABLE_LINKER__List_Debug CMakeFiles/List.dir/Cpp_Primer_Plus/DataStructure/List.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/List.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = List
+  TARGET_PDB = List.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ConstPointer
+
+
+#############################################
+# Order-only phony target for ConstPointer
+
+build cmake_object_order_depends_target_ConstPointer: phony || CMakeFiles/ConstPointer.dir
+
+build CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const/ConstAndPointer.cpp.o: CXX_COMPILER__ConstPointer_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/const/ConstAndPointer.cpp || cmake_object_order_depends_target_ConstPointer
+  DEP_FILE = CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const/ConstAndPointer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/ConstPointer.dir
+  OBJECT_FILE_DIR = CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ConstPointer
+
+
+#############################################
+# Link the executable ConstPointer
+
+build ConstPointer: CXX_EXECUTABLE_LINKER__ConstPointer_Debug CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const/ConstAndPointer.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/ConstPointer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ConstPointer
+  TARGET_PDB = ConstPointer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Vector
+
+
+#############################################
+# Order-only phony target for Vector
+
+build cmake_object_order_depends_target_Vector: phony || CMakeFiles/Vector.dir
+
+build CMakeFiles/Vector.dir/Cpp_Primer_Plus/DataStructure/Vector.cpp.o: CXX_COMPILER__Vector_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Vector.cpp || cmake_object_order_depends_target_Vector
+  DEP_FILE = CMakeFiles/Vector.dir/Cpp_Primer_Plus/DataStructure/Vector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Vector.dir
+  OBJECT_FILE_DIR = CMakeFiles/Vector.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Vector
+
+
+#############################################
+# Link the executable Vector
+
+build Vector: CXX_EXECUTABLE_LINKER__Vector_Debug CMakeFiles/Vector.dir/Cpp_Primer_Plus/DataStructure/Vector.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Vector.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Vector
+  TARGET_PDB = Vector.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target StdDeque
@@ -93,6 +341,37 @@ build StdDeque: CXX_EXECUTABLE_LINKER__StdDeque_Debug CMakeFiles/StdDeque.dir/Cp
   PRE_LINK = :
   TARGET_FILE = StdDeque
   TARGET_PDB = StdDeque.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Forward_list
+
+
+#############################################
+# Order-only phony target for Forward_list
+
+build cmake_object_order_depends_target_Forward_list: phony || CMakeFiles/Forward_list.dir
+
+build CMakeFiles/Forward_list.dir/Cpp_Primer_Plus/DataStructure/Forward_list.cpp.o: CXX_COMPILER__Forward_list_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Forward_list.cpp || cmake_object_order_depends_target_Forward_list
+  DEP_FILE = CMakeFiles/Forward_list.dir/Cpp_Primer_Plus/DataStructure/Forward_list.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Forward_list.dir
+  OBJECT_FILE_DIR = CMakeFiles/Forward_list.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Forward_list
+
+
+#############################################
+# Link the executable Forward_list
+
+build Forward_list: CXX_EXECUTABLE_LINKER__Forward_list_Debug CMakeFiles/Forward_list.dir/Cpp_Primer_Plus/DataStructure/Forward_list.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Forward_list.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Forward_list
+  TARGET_PDB = Forward_list.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Lambda
@@ -219,6 +498,37 @@ build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Map
+
+
+#############################################
+# Order-only phony target for Map
+
+build cmake_object_order_depends_target_Map: phony || CMakeFiles/Map.dir
+
+build CMakeFiles/Map.dir/Cpp_Primer_Plus/DataStructure/Map.cpp.o: CXX_COMPILER__Map_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Map.cpp || cmake_object_order_depends_target_Map
+  DEP_FILE = CMakeFiles/Map.dir/Cpp_Primer_Plus/DataStructure/Map.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Map.dir
+  OBJECT_FILE_DIR = CMakeFiles/Map.dir/Cpp_Primer_Plus/DataStructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Map
+
+
+#############################################
+# Link the executable Map
+
+build Map: CXX_EXECUTABLE_LINKER__Map_Debug CMakeFiles/Map.dir/Cpp_Primer_Plus/DataStructure/Map.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Map.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Map
+  TARGET_PDB = Map.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Reference
 
 
@@ -250,35 +560,35 @@ build Reference: CXX_EXECUTABLE_LINKER__Reference_Debug CMakeFiles/Reference.dir
   TARGET_PDB = Reference.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ConstPointer
+# Object build statements for EXECUTABLE target Array
 
 
 #############################################
-# Order-only phony target for ConstPointer
+# Order-only phony target for Array
 
-build cmake_object_order_depends_target_ConstPointer: phony || CMakeFiles/ConstPointer.dir
+build cmake_object_order_depends_target_Array: phony || CMakeFiles/Array.dir
 
-build CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const/ConstAndPointer.cpp.o: CXX_COMPILER__ConstPointer_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/const/ConstAndPointer.cpp || cmake_object_order_depends_target_ConstPointer
-  DEP_FILE = CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const/ConstAndPointer.cpp.o.d
+build CMakeFiles/Array.dir/Cpp_Primer_Plus/DataStructure/Array.cpp.o: CXX_COMPILER__Array_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/DataStructure/Array.cpp || cmake_object_order_depends_target_Array
+  DEP_FILE = CMakeFiles/Array.dir/Cpp_Primer_Plus/DataStructure/Array.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/ConstPointer.dir
-  OBJECT_FILE_DIR = CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const
+  OBJECT_DIR = CMakeFiles/Array.dir
+  OBJECT_FILE_DIR = CMakeFiles/Array.dir/Cpp_Primer_Plus/DataStructure
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ConstPointer
+# Link build statements for EXECUTABLE target Array
 
 
 #############################################
-# Link the executable ConstPointer
+# Link the executable Array
 
-build ConstPointer: CXX_EXECUTABLE_LINKER__ConstPointer_Debug CMakeFiles/ConstPointer.dir/Cpp_Primer_Plus/const/ConstAndPointer.cpp.o
+build Array: CXX_EXECUTABLE_LINKER__Array_Debug CMakeFiles/Array.dir/Cpp_Primer_Plus/DataStructure/Array.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/ConstPointer.dir
+  OBJECT_DIR = CMakeFiles/Array.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ConstPointer
-  TARGET_PDB = ConstPointer.dbg
+  TARGET_FILE = Array
+  TARGET_PDB = Array.dbg
 
 # =============================================================================
 # Target aliases.
@@ -291,7 +601,7 @@ build ConstPointer: CXX_EXECUTABLE_LINKER__ConstPointer_Debug CMakeFiles/ConstPo
 #############################################
 # Folder: /Users/tianyang/CLionProjects/Lion001/cmake-build-debug
 
-build all: phony StdDeque Lambda RefAndFunction RefAndConst main Reference ConstPointer
+build all: phony Set Stack Heap Priority Queue List ConstPointer Vector StdDeque Forward_list Lambda RefAndFunction RefAndConst main Map Reference Array
 
 # =============================================================================
 # Built-in targets
