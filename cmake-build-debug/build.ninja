@@ -250,6 +250,37 @@ build List: CXX_EXECUTABLE_LINKER__List_Debug CMakeFiles/List.dir/Cpp_Primer_Plu
   TARGET_PDB = List.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Graph
+
+
+#############################################
+# Order-only phony target for Graph
+
+build cmake_object_order_depends_target_Graph: phony || CMakeFiles/Graph.dir
+
+build CMakeFiles/Graph.dir/Cpp_Primer_Plus/Graph/Graph.cpp.o: CXX_COMPILER__Graph_Debug /Users/tianyang/CLionProjects/Lion001/Cpp_Primer_Plus/Graph/Graph.cpp || cmake_object_order_depends_target_Graph
+  DEP_FILE = CMakeFiles/Graph.dir/Cpp_Primer_Plus/Graph/Graph.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Graph.dir
+  OBJECT_FILE_DIR = CMakeFiles/Graph.dir/Cpp_Primer_Plus/Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Graph
+
+
+#############################################
+# Link the executable Graph
+
+build Graph: CXX_EXECUTABLE_LINKER__Graph_Debug CMakeFiles/Graph.dir/Cpp_Primer_Plus/Graph/Graph.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/Graph.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Graph
+  TARGET_PDB = Graph.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ConstPointer
 
 
@@ -498,6 +529,37 @@ build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target findRedundant
+
+
+#############################################
+# Order-only phony target for findRedundant
+
+build cmake_object_order_depends_target_findRedundant: phony || CMakeFiles/findRedundant.dir
+
+build CMakeFiles/findRedundant.dir/LeetCode/Graph/findRedundant.cpp.o: CXX_COMPILER__findRedundant_Debug /Users/tianyang/CLionProjects/Lion001/LeetCode/Graph/findRedundant.cpp || cmake_object_order_depends_target_findRedundant
+  DEP_FILE = CMakeFiles/findRedundant.dir/LeetCode/Graph/findRedundant.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/findRedundant.dir
+  OBJECT_FILE_DIR = CMakeFiles/findRedundant.dir/LeetCode/Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target findRedundant
+
+
+#############################################
+# Link the executable findRedundant
+
+build findRedundant: CXX_EXECUTABLE_LINKER__findRedundant_Debug CMakeFiles/findRedundant.dir/LeetCode/Graph/findRedundant.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  OBJECT_DIR = CMakeFiles/findRedundant.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = findRedundant
+  TARGET_PDB = findRedundant.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Map
 
 
@@ -601,7 +663,7 @@ build Array: CXX_EXECUTABLE_LINKER__Array_Debug CMakeFiles/Array.dir/Cpp_Primer_
 #############################################
 # Folder: /Users/tianyang/CLionProjects/Lion001/cmake-build-debug
 
-build all: phony Set Stack Heap Priority Queue List ConstPointer Vector StdDeque Forward_list Lambda RefAndFunction RefAndConst main Map Reference Array
+build all: phony Set Stack Heap Priority Queue List Graph ConstPointer Vector StdDeque Forward_list Lambda RefAndFunction RefAndConst main findRedundant Map Reference Array
 
 # =============================================================================
 # Built-in targets
