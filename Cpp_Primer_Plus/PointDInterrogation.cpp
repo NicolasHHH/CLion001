@@ -17,5 +17,9 @@ int main() {
     k = y? 5:6;
     cout << k <<endl;
     cout << "finish" <<endl;
+    int kk = 10, aa = -3;
+    kk = +aa;
+    cout<<kk;
+
     return 0;
 }

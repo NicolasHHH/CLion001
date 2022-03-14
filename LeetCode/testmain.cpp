@@ -6,7 +6,19 @@
 
 #include <iostream>
 
+class animal{
+
+};
+class dog : public animal{
+
+};
 int main() {
+
+
     std::cout << "Hello, test!" << std::endl;
+    bool x =true,y=false;
+    cout<<(~x||y)
+
     return 0;
+
 }
